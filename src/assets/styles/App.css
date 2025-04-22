@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: "League Spartan";
+    src: url("../fonts/League_Spartan/LeagueSpartan-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Antonio";
+    src: url("../fonts/Antonio/Antonio-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src: url("../fonts/League_Spartan/LeagueSpartan-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@theme {
+    /*COLOURS*/
+    --color-white: #FFFFFF;
+    --color-black: #070724;
+    --color-dark-gray: #38384F;
+    --color-light-gray: #838391;
+    --color-teal-blue: #419EBB;
+    --color-soft-orange: #EDA249;
+    --color-violet-purple: #6f2ed6;
+    --color-brick-red: #D14C32;
+    --color-burnt-red: #D83A34;
+    --color-deep-orange: #CD5120;
+    --color-aqua-green: #1ec2a4;
+    --color-bright-blue: #2d68f0;
+
+
+    /*TYPOGRAPHY*/
+
+    /*font-family*/
+    --font-leagueSpartan: "League Spartan", sans-serif;
+    --font-antonio: "Antonio", sans-serif;
+
+    /*font-weight*/
+    --font-weight-regular: 300;
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+
+    /*line-height*/
+    --leading-xxl: 6.4375rem;
+    --leading-xl: 3.25rem;
+    --leading-md: 1.5625rem;
+    --leading-sm: 1.375rem;
+    --leading-xs: 1rem;
+
+    /*letter-spacing*/
+    --tracking-tight: -0.0938rem;
+    --tracking-smaller: -0.0469rem;
+    --tracking-small: .0456rem;
+    --tracking-base: .0625rem;
+    --tracking-medium: 0.085rem;
+    --tracking-wide: .1625rem;
+}
+
+@layer base {
+    @layer base {
+        body::before {
+            content: '';
+            @apply fixed inset-0 -z-10;
+            background-image: url('../images/background-stars.svg');
+            background-repeat: no-repeat;
+        }
+    }
+
+}
