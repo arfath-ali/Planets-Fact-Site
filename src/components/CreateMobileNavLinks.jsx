@@ -3,7 +3,9 @@ import arrowImg from '../assets/images/icon-chevron.svg';
 
 const CreateMobileNavLinks = ({ planetName, planetColor }) => {
   return (
-    <Link to={`/${planetName.toLowerCase()}`}>
+    <Link
+      to={`/${planetName.toLowerCase()}`}
+      className="flex items-center justify-between">
       <div className="flex items-center gap-[1.5625rem]">
         <div
           className="h-5 w-5 rounded-full"

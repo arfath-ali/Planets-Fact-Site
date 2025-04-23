@@ -41,7 +41,6 @@ const PlanetsMobileNav = ({ hideMenu }) => {
         return (
           <div key={planet.name} className="flex flex-col gap-5">
             <div
-              className="flex items-center justify-between"
               onClick={hideMenu}
               key={`${planet.name}-wrapper`}>
               <CreateMobileNavLinks
