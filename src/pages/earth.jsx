@@ -1,14 +1,13 @@
 import PlanetData from '../assets/data/data.json';
 import Page from '../components/PageLayout';
+import EarthImg from '/src/assets/images/planet-earth.svg';
+import EarthStructureImg from '/src/assets/images/planet-earth-internal.svg';
+import EarthGeologyImg from '/src/assets/images/geology-earth.png';
 
 const Earth = () => {
   const EarthData = PlanetData.earth;
 
   const EarthColor = '#6f2ed6';
-
-  const EarthImg = EarthData.images.planet;
-  const EarthStructureImg = EarthData.images.internal;
-  const EarthGeologyImg = EarthData.images.geology;
 
   const EarthImgDimensions =
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';
@@ -30,8 +29,6 @@ const Earth = () => {
   const EarthRevolution = EarthData.revolution;
   const EarthRadius = EarthData.radius;
   const EarthTemp = EarthData.temperature;
-
-
 
   return (
     <Page

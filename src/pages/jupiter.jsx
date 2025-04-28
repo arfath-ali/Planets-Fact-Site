@@ -1,14 +1,13 @@
 import PlanetData from '../assets/data/data.json';
 import Page from '../components/PageLayout';
+import JupiterImg from '/src/assets/images/planet-jupiter.svg';
+import JupiterStructureImg from '/src/assets/images/planet-jupiter-internal.svg';
+import JupiterGeologyImg from '/src/assets/images/geology-jupiter.png';
 
 const Jupiter = () => {
   const JupiterData = PlanetData.jupiter;
 
   const JupiterColor = '#D83A34';
-
-  const JupiterImg = JupiterData.images.planet;
-  const JupiterStructureImg = JupiterData.images.internal;
-  const JupiterGeologyImg = JupiterData.images.geology;
 
   const JupiterImgDimensions =
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';

@@ -1,14 +1,13 @@
 import PlanetData from '../assets/data/data.json';
 import Page from '../components/PageLayout';
+import MarsImg from '/src/assets/images/planet-mars.svg';
+import MarsStructureImg from '/src/assets/images/planet-mars-internal.svg';
+import MarsGeologyImg from '/src/assets/images/geology-mars.png';
 
 const Mars = () => {
   const MarsData = PlanetData.mars;
 
   const MarsColor = '#D14C32';
-
-  const MarsImg = MarsData.images.planet;
-  const MarsStructureImg = MarsData.images.internal;
-  const MarsGeologyImg = MarsData.images.geology;
 
   const MarsImgDimensions =
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';

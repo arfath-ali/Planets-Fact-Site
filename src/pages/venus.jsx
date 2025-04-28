@@ -1,14 +1,13 @@
 import PlanetData from '../assets/data/data.json';
 import Page from '../components/PageLayout';
+import VenusImg from '/src/assets/images/planet-venus.svg';
+import VenusStructureImg from '/src/assets/images/planet-venus-internal.svg';
+import VenusGeologyImg from '/src/assets/images/geology-venus.png';
 
 const Venus = () => {
   const VenusData = PlanetData.venus;
 
   const VenusColor = '#EDA249';
-
-  const VenusImg = VenusData.images.planet;
-  const VenusStructureImg = VenusData.images.internal;
-  const VenusGeologyImg = VenusData.images.geology;
 
   const VenusImgDimensions =
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';

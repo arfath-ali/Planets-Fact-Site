@@ -1,14 +1,13 @@
 import PlanetData from '../assets/data/data.json';
 import Page from '../components/PageLayout';
+import SaturnImg from '/src/assets/images/planet-saturn.svg';
+import SaturnStructureImg from '/src/assets/images/planet-saturn-internal.svg';
+import SaturnGeologyImg from '/src/assets/images/geology-saturn.png';
 
 const Saturn = () => {
   const SaturnData = PlanetData.saturn;
 
   const SaturnColor = '#CD5120';
-
-  const SaturnImg = SaturnData.images.planet;
-  const SaturnStructureImg = SaturnData.images.internal;
-  const SaturnGeologyImg = SaturnData.images.geology;
 
   const SaturnImgDimensions =
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';

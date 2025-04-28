@@ -1,14 +1,13 @@
 import PlanetData from '../assets/data/data.json';
 import Page from '../components/PageLayout';
+import MercuryImg from '/src/assets/images/planet-mercury.svg';
+import MercuryStructureImg from '/src/assets/images/planet-mercury-internal.svg';
+import MercuryGeologyImg from '/src/assets/images/geology-mercury.png';
 
 const Mercury = () => {
   const MercuryData = PlanetData.mercury;
 
   const MercuryColor = '#419EBB';
-
-  const MercuryImg = MercuryData.images.planet;
-  const MercuryStructureImg = MercuryData.images.internal;
-  const MercuryGeologyImg = MercuryData.images.geology;
 
   const MercuryImgDimensions =
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';

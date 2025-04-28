@@ -1,14 +1,13 @@
 import PlanetData from '../assets/data/data.json';
 import Page from '../components/PageLayout';
+import UranusImg from '/src/assets/images/planet-uranus.svg';
+import UranusStructureImg from '/src/assets/images/planet-uranus-internal.svg';
+import UranusGeologyImg from '/src/assets/images/geology-uranus.png';
 
 const Uranus = () => {
   const UranusData = PlanetData.uranus;
 
   const UranusColor = '#1ec2a4';
-
-  const UranusImg = UranusData.images.planet;
-  const UranusStructureImg = UranusData.images.internal;
-  const UranusGeologyImg = UranusData.images.geology;
 
   const UranusImgDimensions =
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';

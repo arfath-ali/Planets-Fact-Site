@@ -1,14 +1,13 @@
 import PlanetData from '../assets/data/data.json';
 import Page from '../components/PageLayout';
+import NeptuneImg from '/src/assets/images/planet-neptune.svg';
+import NeptuneStructureImg from '/src/assets/images/planet-neptune-internal.svg';
+import NeptuneGeologyImg from '/src/assets/images/geology-neptune.png';
 
 const Neptune = () => {
   const NeptuneData = PlanetData.neptune;
 
   const NeptuneColor = '#2d68f0';
-
-  const NeptuneImg = NeptuneData.images.planet;
-  const NeptuneStructureImg = NeptuneData.images.internal;
-  const NeptuneGeologyImg = NeptuneData.images.geology;
 
   const NeptuneImgDimensions =
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';
