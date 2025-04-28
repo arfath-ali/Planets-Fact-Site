@@ -3,10 +3,16 @@ const PlanetsStats = ({
   RevolutionTimeValue,
   RadiusValue,
   Temp,
-  styles,
-  labelStyles,
-  valueStyles,
 }) => {
+  const styles =
+    'flex justify-between items-center md:flex-col md:items-start px-6 py-4 border border-dark-gray md:pr-[3.375rem] md:gap-1.5';
+
+  const labelStyles =
+    'font-bold leading-md tracking-base opacity-50 text-[0.5rem] uppercase lg:text-[0.6875rem]';
+
+  const valueStyles =
+    'font-antonio font-weight-medium text-[1.25rem] tracking-smaller leading-md md:text-2xl lg:text-[2.5rem]';
+
   return (
     <>
       <div className={styles}>

@@ -20,6 +20,11 @@
 }
 
 @theme {
+
+    /*SCREENS*/
+    --breakpoint-md: 48rem;
+    --breakpoint-lg: 90rem;
+
     /*COLOURS*/
     --color-white: #FFFFFF;
     --color-black: #070724;

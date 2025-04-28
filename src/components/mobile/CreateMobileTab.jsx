@@ -1,14 +1,27 @@
+import { useNavigate, useLocation } from 'react-router-dom';
+
 const CreateMobileTab = ({
+  pageName,
   onClick,
   ButtonLabel,
   activeTabHighlight,
-  isActive,
 }) => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const navigateToPage = () => {
+    onClick(ButtonLabel);
+
+    navigate(`/${pageName.toLowerCase()}/${ButtonLabel.toLowerCase()}`);
+  };
+
+  const isActiveTab = location.pathname.includes(`${ButtonLabel.toLowerCase()}`);
+
   return (
     <button
       className="leading-md cursor-pointer py-5 text-[0.75rem] font-bold tracking-wide opacity-50"
       style={
-        isActive
+        isActiveTab
           ? {
               borderBottom: `4px solid ${activeTabHighlight}`,
               paddingBottom: '1rem',
@@ -16,7 +29,7 @@ const CreateMobileTab = ({
             }
           : {}
       }
-      onClick={() => onClick(ButtonLabel)}>
+      onClick={() => navigateToPage()}>
       {ButtonLabel.slice(0, -1)}
       <span className="tracking-normal">{ButtonLabel.slice(-1)}</span>
     </button>

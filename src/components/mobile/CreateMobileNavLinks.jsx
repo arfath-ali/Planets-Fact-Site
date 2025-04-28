@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import arrowImg from '../assets/images/icon-chevron.svg';
+import arrowImg from '../../assets/images/icon-chevron.svg';
 
 const CreateMobileNavLinks = ({ planetName, planetColor }) => {
   return (
     <Link
-      to={`/${planetName.toLowerCase()}`}
+      to={`/${planetName.toLowerCase()}/overview`}
       className="flex items-center justify-between">
       <div className="flex items-center gap-[1.5625rem]">
         <div
