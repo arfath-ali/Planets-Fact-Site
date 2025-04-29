@@ -24,7 +24,7 @@ const PlanetsRoutes = () => {
       <Route path="/planets-fact-site/dist/venus/structure" element={<Venus />} />
       <Route path="/planets-fact-site/dist/venus/surface" element={<Venus />} />
 
-      <Route path="planets-fact-site/dist/earth/overview" element={<Earth />} />
+      <Route path="/planets-fact-site/dist/earth/overview" element={<Earth />} />
       <Route path="/planets-fact-site/dist/earth/internal-structure" element={<Earth />} />
       <Route path="/planets-fact-site/dist/earth/surface-geology" element={<Earth />} />
       <Route path="/planets-fact-site/dist/earth/structure" element={<Earth />} />
