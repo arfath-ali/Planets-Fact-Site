@@ -11,55 +11,55 @@ import Neptune from '../pages/neptune.jsx';
 const PlanetsRoutes = () => {
   return (
     <Routes>
-      <Route path="/planets-fact-site" element={<Navigate to="/planets-fact-site/earth/overview" replace />} />
+      <Route path="/" element={<Navigate to="/earth/overview" replace />} />
 
-      <Route path="/planets-fact-site/mercury/overview" element={<Mercury />} />
-      <Route path="/planets-fact-site/mercury/internal-structure" element={<Mercury />} />
-      <Route path="/planets-fact-site/mercury/surface-geology" element={<Mercury />} />
-      <Route path="/planets-fact-site/mercury/structure" element={<Mercury />} />
-      <Route path="/planets-fact-site/mercury/surface" element={<Mercury />} />
+      <Route path="/mercury/overview" element={<Mercury />} />
+      <Route path="/mercury/internal-structure" element={<Mercury />} />
+      <Route path="/mercury/surface-geology" element={<Mercury />} />
+      <Route path="/mercury/structure" element={<Mercury />} />
+      <Route path="/mercury/surface" element={<Mercury />} />
 
-      <Route path="/planets-fact-site/venus/overview" element={<Venus />} />
-      <Route path="/planets-fact-site/venus/internal-structure" element={<Venus />} />
-      <Route path="/planets-fact-site/venus/surface-geology" element={<Venus />} />
-      <Route path="/planets-fact-site/venus/structure" element={<Venus />} />
-      <Route path="/planets-fact-site/venus/surface" element={<Venus />} />
+      <Route path="/venus/overview" element={<Venus />} />
+      <Route path="/venus/internal-structure" element={<Venus />} />
+      <Route path="/venus/surface-geology" element={<Venus />} />
+      <Route path="/venus/structure" element={<Venus />} />
+      <Route path="/venus/surface" element={<Venus />} />
 
-      <Route path="/planets-fact-site/earth/overview" element={<Earth />} />
-      <Route path="/planets-fact-site/earth/internal-structure" element={<Earth />} />
-      <Route path="/planets-fact-site/earth/surface-geology" element={<Earth />} />
-      <Route path="/planets-fact-site/earth/structure" element={<Earth />} />
-      <Route path="/planets-fact-site/earth/surface" element={<Earth />} />
+      <Route path="/earth/overview" element={<Earth />} />
+      <Route path="/earth/internal-structure" element={<Earth />} />
+      <Route path="/earth/surface-geology" element={<Earth />} />
+      <Route path="/earth/structure" element={<Earth />} />
+      <Route path="/earth/surface" element={<Earth />} />
 
-      <Route path="/planets-fact-site/mars/overview" element={<Mars />} />
-      <Route path="/planets-fact-site/mars/internal-structure" element={<Mars />} />
-      <Route path="/planets-fact-site/mars/surface-geology" element={<Mars />} />
-      <Route path="/planets-fact-site/mars/structure" element={<Mars />} />
-      <Route path="/planets-fact-site/mars/surface" element={<Mars />} />
+      <Route path="/mars/overview" element={<Mars />} />
+      <Route path="/mars/internal-structure" element={<Mars />} />
+      <Route path="/mars/surface-geology" element={<Mars />} />
+      <Route path="/mars/structure" element={<Mars />} />
+      <Route path="/mars/surface" element={<Mars />} />
 
-      <Route path="/planets-fact-site/jupiter/overview" element={<Jupiter />} />
-      <Route path="/planets-fact-site/jupiter/internal-structure" element={<Jupiter />} />
-      <Route path="/planets-fact-site/jupiter/surface-geology" element={<Jupiter />} />
-      <Route path="/planets-fact-site/jupiter/structure" element={<Jupiter />} />
-      <Route path="/planets-fact-site/jupiter/surface" element={<Jupiter />} />
+      <Route path="/jupiter/overview" element={<Jupiter />} />
+      <Route path="/jupiter/internal-structure" element={<Jupiter />} />
+      <Route path="/jupiter/surface-geology" element={<Jupiter />} />
+      <Route path="/jupiter/structure" element={<Jupiter />} />
+      <Route path="/jupiter/surface" element={<Jupiter />} />
 
-      <Route path="/planets-fact-site/saturn/overview" element={<Saturn />} />
-      <Route path="/planets-fact-site/saturn/internal-structure" element={<Saturn />} />
-      <Route path="/planets-fact-site/saturn/surface-geology" element={<Saturn />} />
-      <Route path="/planets-fact-site/saturn/structure" element={<Saturn />} />
-      <Route path="/planets-fact-site/saturn/surface" element={<Saturn />} />
+      <Route path="/saturn/overview" element={<Saturn />} />
+      <Route path="/saturn/internal-structure" element={<Saturn />} />
+      <Route path="/saturn/surface-geology" element={<Saturn />} />
+      <Route path="/saturn/structure" element={<Saturn />} />
+      <Route path="/saturn/surface" element={<Saturn />} />
 
-      <Route path="/planets-fact-site/uranus/overview" element={<Uranus />} />
-      <Route path="/planets-fact-site/uranus/internal-structure" element={<Uranus />} />
-      <Route path="/planets-fact-site/uranus/surface-geology" element={<Uranus />} />
-      <Route path="/planets-fact-site/uranus/structure" element={<Uranus />} />
-      <Route path="/planets-fact-site/uranus/surface" element={<Uranus />} />
+      <Route path="/uranus/overview" element={<Uranus />} />
+      <Route path="/uranus/internal-structure" element={<Uranus />} />
+      <Route path="/uranus/surface-geology" element={<Uranus />} />
+      <Route path="/uranus/structure" element={<Uranus />} />
+      <Route path="/uranus/surface" element={<Uranus />} />
 
-      <Route path="/planets-fact-site/neptune/overview" element={<Neptune />} />
-      <Route path="/planets-fact-site/neptune/internal-structure" element={<Neptune />} />
-      <Route path="/planets-fact-site/neptune/surface-geology" element={<Neptune />} />
-      <Route path="/planets-fact-site/neptune/structure" element={<Neptune />} />
-      <Route path="/planets-fact-site/neptune/surface" element={<Neptune />} />
+      <Route path="/neptune/overview" element={<Neptune />} />
+      <Route path="/neptune/internal-structure" element={<Neptune />} />
+      <Route path="/neptune/surface-geology" element={<Neptune />} />
+      <Route path="/neptune/structure" element={<Neptune />} />
+      <Route path="/neptune/surface" element={<Neptune />} />
     </Routes>
   );
 };

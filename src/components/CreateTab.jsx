@@ -15,7 +15,7 @@ const CreateTab = ({
     onClick(ButtonLabel);
 
     navigate(
-      `/planets-fact-site/${pageName.toLowerCase()}/${ButtonLabel.toLowerCase().replace(/\s+/g, '-')}`,
+      `/${pageName.toLowerCase()}/${ButtonLabel.toLowerCase().replace(/\s+/g, '-')}`,
     );
   };
 

@@ -7,7 +7,7 @@ const CreateNavLinks = ({ PlanetName, PlanetColor }) => {
 
   return (
     <NavLink
-      to={`/planets-fact-site/${PlanetName.toLowerCase()}/overview`}
+      to={`/${PlanetName.toLowerCase()}/overview`}
       style={
         isActive
           ? {
