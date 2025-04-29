@@ -12,7 +12,7 @@ const CreateMobileTab = ({
   const navigateToPage = () => {
     onClick(ButtonLabel);
 
-    navigate(`/${pageName.toLowerCase()}/${ButtonLabel.toLowerCase()}`);
+    navigate(`/planets-fact-site/dist/${pageName.toLowerCase()}/${ButtonLabel.toLowerCase()}`);
   };
 
   const isActiveTab = location.pathname.includes(`${ButtonLabel.toLowerCase()}`);
