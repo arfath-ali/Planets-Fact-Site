@@ -6,7 +6,7 @@ import './assets/styles/App.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/planets-fact-site/dist">
       <App />
     </BrowserRouter>
   </StrictMode>,
