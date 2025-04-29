@@ -3,6 +3,6 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/Planets-Fact-Site/dist/',
+  base: './',
   plugins: [react(), tailwindcss()],
 });
