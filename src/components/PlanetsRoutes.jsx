@@ -11,7 +11,7 @@ import Neptune from '../pages/neptune.jsx';
 const PlanetsRoutes = () => {
   return (
     <Routes>
-      <Route path="/planets-fact-site/dist/earth/overview" element={<Navigate to="/planets-fact-site/dist/earth/overview" replace />} />
+      <Route path="/planets-fact-site/dist" element={<Navigate to="/planets-fact-site/dist/earth/overview" replace />} />
       <Route path="/planets-fact-site/dist/mercury/overview" element={<Mercury />} />
       <Route path="/planets-fact-site/dist/mercury/internal-structure" element={<Mercury />} />
       <Route path="/planets-fact-site/dist/mercury/surface-geology" element={<Mercury />} />
