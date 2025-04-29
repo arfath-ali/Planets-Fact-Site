@@ -45,7 +45,7 @@ const Page = ({
     'mx-auto h-[10.8125rem] w-[10.8125rem] md:h-[17.8125rem] md:w-[17.8125rem] lg:h-[28.125rem] lg:w-[28.125rem]';
 
   const PlanetSurfaceImgDimensions =
-    'absolute top-[68%] left-[40.5%] h-[4.8125rem] w-[3.9375rem] md:h-[7.9375rem] md:w-[6.5rem] lg:h-[12.5rem] lg:w-[10.25rem] lg:left-[31.8%]';
+    'absolute -bottom-1/8  left-1/2 -translate-x-1/2 h-[4.8125rem] w-[3.9375rem] md:h-[7.9375rem] md:w-[6.5rem] lg:h-[12.5rem] lg:w-[10.25rem]';
 
   let activeImg = '';
   let activePage = '';
