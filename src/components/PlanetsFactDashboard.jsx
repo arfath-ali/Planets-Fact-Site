@@ -3,7 +3,6 @@ import PlanetsMobileNav from './mobile/PlanetsMobileNav.jsx';
 import PlanetsNav from './PlanetsNav.jsx';
 import PlanetsRoutes from './PlanetsRoutes.jsx';
 import MenuIcon from '../assets/images/icon-hamburger.svg';
-import Earth from '../pages/earth.jsx';
 
 const PlanetsFactDashboard = () => {
   const [toogleMenu, setToogleMenu] = useState(false);
@@ -36,7 +35,6 @@ const PlanetsFactDashboard = () => {
       <main>
         <div className="bg-dark-gray h-px w-full"></div>
         {toogleMenu && <PlanetsMobileNav hideMenu={handleMenuClick} />}
-        <Earth />
         {!toogleMenu && <PlanetsRoutes />}
       </main>
 
