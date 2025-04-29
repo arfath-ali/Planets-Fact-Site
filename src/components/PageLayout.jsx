@@ -44,7 +44,6 @@ const Page = ({
 
   const changeTab = (ButtonLabel) => {
     setActiveTab(ButtonLabel);
-    console.log('tab changed');
   };
 
   let activeImg = '';
